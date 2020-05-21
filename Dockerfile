@@ -1,7 +1,7 @@
 FROM adoptopenjdk/openjdk11
 
-WORKDIR /minecraft
-VOLUME /minecraft 
+WORKDIR /
+VOLUME / 
 
 ADD eula.txt eula.txt
 ADD server.properties server.properties
