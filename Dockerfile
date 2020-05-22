@@ -10,4 +10,4 @@ EXPOSE 8080
 
 RUN chgrp -R 0 /minecraft && chmod -R g=u /minecraft
 
-CMD java -jar minecraft/server.jar
+CMD java -jar server.jar
