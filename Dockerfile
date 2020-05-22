@@ -2,9 +2,9 @@ FROM adoptopenjdk/openjdk11
 
 WORKDIR /minecraft
 
-ADD eula.txt minecraft/eula.txt
-ADD server.properties minecraft/server.properties
-ADD server.jar minecraft/server.jar
+ADD eula.txt /minecraft/eula.txt
+ADD server.properties /minecraft/server.properties
+ADD server.jar /minecraft/server.jar
 
 EXPOSE 8080
 
