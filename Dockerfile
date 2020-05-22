@@ -8,7 +8,7 @@ ADD server.jar server.jar
 
 EXPOSE 8080
 
-RUN chgrp -R 0 / && \
-    chmod -R g=u /
+RUN chgrp -R 0 . && \
+    chmod -R g=u .
 
 CMD java -jar server.jar
